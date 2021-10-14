@@ -148,7 +148,7 @@ La aplicación convierte los objetos a JSON por medio del objeto Gson de Google,
 ## Autor
 
   - **[Felipe Marín](https://github.com/PhillipMarin117)**
-F
+
 ## Licencia
 
 Este proyecto está licenciado bajo la licencia **General Public License v3.0**, revise el archivo [LICENSE](LICENSE) para más detalles.
