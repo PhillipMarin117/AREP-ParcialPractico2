@@ -8,18 +8,18 @@ import edu.escuelaing.arep.calculator.model.AppResponse;
 public interface Services {
 
     /**
-     * Calculates The Square Root from a Number.
+     * Interfaz con los métodos de calculadora para la aplicación.
      *
-     * @param number The Number To Calculate.
-     * @return The AppResponse Object With The Square Root from the Number.
+     * @param number El número a calcular.
+     * @return El objeto AppResponse con la raíz cuadrada del número.
      */
     AppResponse getSquareRoot(Double number);
 
     /**
-     * Calculates The Cosine from a Number.
+     * Calcula el coseno a partir de un número.
      *
-     * @param number The Number To Calculate.
-     * @return The AppResponse Object With The Cosine from the Number.
+     * @param number El número a calcular.
+     * @return El objeto AppResponse con el coseno del número.
      */
     AppResponse getCosine(Double number);
 }

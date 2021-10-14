@@ -1,17 +1,19 @@
 package edu.escuelaing.arep.calculator.service;
 
 import edu.escuelaing.arep.calculator.model.AppResponse;
+import org.springframework.stereotype.Service;
 
 /**
- * Class That Implements the Calculator Methods for the App.
+ * Clase que implementa los métodos de calculadora para la aplicación.
  */
+@Service
 public class ServicesImpl implements Services {
 
     /**
-     * Calculates The Square Root from a Number.
+     * Calcula la raíz cuadrada a partir de un número.
      *
-     * @param number The Number To Calculate.
-     * @return The AppResponse Object With The Square Root from the Number.
+     * @param number El número a calcular.
+     * @return El objeto AppResponse con la raíz cuadrada del número.
      */
     @Override
     public AppResponse getSquareRoot(Double number) {
@@ -20,10 +22,10 @@ public class ServicesImpl implements Services {
     }
 
     /**
-     * Calculates The Cosine from a Number.
+     * Calcula el coseno a partir de un número.
      *
-     * @param number The Number To Calculate.
-     * @return The AppResponse Object With The Cosine from the Number.
+     * @param number El número a calcular.
+     * @return El objeto AppResponse con el coseno del número.
      */
     @Override
     public AppResponse getCosine(Double number) {
